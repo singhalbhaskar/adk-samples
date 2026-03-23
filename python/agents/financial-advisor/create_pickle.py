@@ -8,4 +8,4 @@ adk_app = AdkApp(
 )
 
 with open("cloudpickle.pkl", "wb") as f:
-    cloudpickle.dump(app, f)
+    cloudpickle.dump(adk_app, f)
